@@ -1,12 +1,18 @@
 {
   "name": "niketa-theme",
   "displayName": "Niketa Theme Light",
-  "scripts": {},
+  "scripts": {
+    "screenshots": "node src/e2e-screenshots/generate-screenshots.js",
+    "screenshots:full": "yarn screenshots && node src/e2e-screenshots/populate-screens.js"
+  },
   "version": "10.66.0",
   "depFn": [
     "eslint"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "puppeteer-core": "^25.3.0",
+    "shiki": "^4.3.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/selfrefactor/niketa-theme.git"
@@ -102,6 +108,5 @@
     "collection",
     "themes",
     "bundle"
-  ],
-  "dependencies": {}
+  ]
 }

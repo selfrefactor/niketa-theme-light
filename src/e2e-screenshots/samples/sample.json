@@ -1,0 +1,22 @@
+{
+  "name": "Theme Demo",
+  "version": "1.0.0",
+  "description": "A sample JSON file",
+  "author": {
+    "name": "Developer",
+    "email": "dev@example.com"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

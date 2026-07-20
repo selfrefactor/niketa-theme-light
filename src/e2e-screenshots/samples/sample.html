@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Theme Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HTML tag (COLOR_0), attribute (COLOR_2) -->
+  <div id="app" class="container">
+    <header>
+      <h1>Hello World</h1>
+      <nav>
+        <a href="/home">Home</a>
+        <a href="/about">About</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2>Article Title</h2>
+        <p>This is a paragraph with <strong>bold</strong> text.</p>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2025</p>
+    </footer>
+  </div>
+  <script type="module">
+    import { app } from './app.js'
+    app.run()
+  </script>
+</body>
+</html>
